@@ -37,5 +37,38 @@ class MainActivity : AppCompatActivity() {
             checkbox8.isVisible = true
             checkbox9.isVisible = true
         }
+
+        radio2.setOnCheckedChangeListener { compoundButton, b ->
+            if (checkbox0.isChecked == false)
+                checkbox0.isVisible = false
+
+            if (checkbox1.isChecked == false)
+                checkbox1.isVisible = false
+
+            if (checkbox2.isChecked == false)
+                checkbox2.isVisible = false
+
+            if (checkbox3.isChecked == false)
+                checkbox3.isVisible = false
+
+            if (checkbox4.isChecked == false)
+                checkbox4.isVisible = false
+
+            if (checkbox5.isChecked == false)
+                checkbox5.isVisible = false
+
+            if (checkbox6.isChecked == false)
+                checkbox6.isVisible = false
+
+            if (checkbox7.isChecked == false)
+                checkbox7.isVisible = false
+
+            if (checkbox8.isChecked == false)
+                checkbox8.isVisible = false
+
+            if (checkbox9.isChecked == false)
+                checkbox9.isVisible = false
+
+        }
     }
 }
