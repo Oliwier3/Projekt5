@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val checkbox8 = findViewById<CheckBox>(R.id.check8)
         val checkbox9 = findViewById<CheckBox>(R.id.check1)
 
-        radio1.setOnCheckedChangeListener { compoundButton, b ->
+        radio2.setOnCheckedChangeListener { compoundButton, b ->
             checkbox0.isVisible = true
             checkbox1.isVisible = true
             checkbox2.isVisible = true
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             checkbox9.isVisible = true
         }
 
-        radio2.setOnCheckedChangeListener { compoundButton, b ->
+        radio1.setOnCheckedChangeListener { compoundButton, b ->
             if (checkbox0.isChecked == false)
                 checkbox0.isVisible = false
 
