@@ -6,6 +6,7 @@ import android.provider.MediaStore.Audio.Radio
 import android.widget.CheckBox
 import android.widget.RadioButton
 import androidx.core.view.isVisible
+import com.google.android.material.chip.Chip
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +25,16 @@ class MainActivity : AppCompatActivity() {
         val checkbox7 = findViewById<CheckBox>(R.id.check7)
         val checkbox8 = findViewById<CheckBox>(R.id.check8)
         val checkbox9 = findViewById<CheckBox>(R.id.check9)
+        val chip1 = findViewById<Chip>(R.id.chip1)
+        val chip2 = findViewById<Chip>(R.id.chip2)
+        val chip3 = findViewById<Chip>(R.id.chip3)
+        val chip4 = findViewById<Chip>(R.id.chip4)
+        val chip5 = findViewById<Chip>(R.id.chip5)
+        val chip6 = findViewById<Chip>(R.id.chip6)
+        val chip7 = findViewById<Chip>(R.id.chip7)
+        val chip8 = findViewById<Chip>(R.id.chip8)
+        val chip9 = findViewById<Chip>(R.id.chip9)
+        val chip10 = findViewById<Chip>(R.id.chip10)
 
         radio2.setOnCheckedChangeListener { compoundButton, b ->
             checkbox0.isVisible = true

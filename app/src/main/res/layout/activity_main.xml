@@ -53,7 +53,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.307" />
@@ -71,7 +71,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.377" />
@@ -89,10 +89,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.454" />
 
     <CheckBox
         android:id="@+id/check3"
@@ -107,10 +107,11 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53" />
+
 
     <CheckBox
         android:id="@+id/check4"
@@ -125,11 +126,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
-
+        app:layout_constraintVertical_bias="0.379" />
 
     <CheckBox
         android:id="@+id/check5"
@@ -144,10 +144,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.449" />
 
     <CheckBox
         android:id="@+id/check6"
@@ -162,7 +162,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.307" />
@@ -227,38 +227,38 @@
         android:layout_height="236dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.828">
+        app:layout_constraintVertical_bias="0.424">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ogórek"
-            app:chipBackgroundColor="@color/red"/>
+            app:chipBackgroundColor="@color/red" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sałata"
-            app:chipBackgroundColor="@color/red"/>
+            app:chipBackgroundColor="@color/red" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Marchewka"
-            app:chipBackgroundColor="@color/red"/>
+            app:chipBackgroundColor="@color/red" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="cebula"
-            app:chipBackgroundColor="@color/red"/>
+            app:chipBackgroundColor="@color/red" />
     </com.google.android.material.chip.ChipGroup>
 
     <com.google.android.material.chip.ChipGroup
@@ -266,10 +266,10 @@
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882">
+        app:layout_constraintVertical_bias="0.359">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip5"
@@ -277,7 +277,7 @@
             android:layout_height="wrap_content"
             android:text="Bułka"
             android:textColor="@color/white"
-            app:chipBackgroundColor="@color/blue"/>
+            app:chipBackgroundColor="@color/blue" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip6"
@@ -285,7 +285,7 @@
             android:layout_height="wrap_content"
             android:text="Chleb bialy"
             android:textColor="@color/white"
-            app:chipBackgroundColor="@color/blue"/>
+            app:chipBackgroundColor="@color/blue" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip7"
@@ -293,7 +293,7 @@
             android:layout_height="wrap_content"
             android:text="Chleb pełnoziarnisty"
             android:textColor="@color/white"
-            app:chipBackgroundColor="@color/blue"/>
+            app:chipBackgroundColor="@color/blue" />
     </com.google.android.material.chip.ChipGroup>
 
     <com.google.android.material.chip.ChipGroup
@@ -301,31 +301,31 @@
         android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602">
+        app:layout_constraintVertical_bias="0.357">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip8"
-            android:text="Szynka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:chipBackgroundColor="@color/yellow"/>
+            android:text="Szynka"
+            app:chipBackgroundColor="@color/yellow" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip9"
-            android:text="Kiełbasa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:chipBackgroundColor="@color/yellow"/>
+            android:text="Kiełbasa"
+            app:chipBackgroundColor="@color/yellow" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip10"
-            android:text="Parówka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:chipBackgroundColor="@color/yellow"/>
+            android:text="Parówka"
+            app:chipBackgroundColor="@color/yellow" />
     </com.google.android.material.chip.ChipGroup>
 
 
