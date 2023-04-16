@@ -35,7 +35,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:text="odznaczanie" />
+            android:text="odznaczanie"
+            android:checked="true"
+            />
     </RadioGroup>
 
     <CheckBox
