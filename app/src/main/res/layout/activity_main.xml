@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/lightblue"
     tools:context=".MainActivity">
 
 
@@ -347,6 +347,8 @@
         android:layout_height="wrap_content"
         android:text="Sklep Spożywczy"
         android:textSize="50px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
