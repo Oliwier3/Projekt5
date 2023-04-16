@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="chip1" parent="Widget.MaterialComponents.Chip.Filter">
-        <item name="android:backdropColor">@color/chip_background_color</item>
-    </style>
-</resources>

@@ -236,27 +236,29 @@
             android:id="@+id/chip1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ogórek" />
+            android:text="ogórek"
+            app:chipBackgroundColor="@color/red"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sałata" />
+            android:text="Sałata"
+            app:chipBackgroundColor="@color/red"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:text="Marchewka" />
+            android:text="Marchewka"
+            app:chipBackgroundColor="@color/red"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:text="cebula" />
+            android:text="cebula"
+            app:chipBackgroundColor="@color/red"/>
     </com.google.android.material.chip.ChipGroup>
 
     <com.google.android.material.chip.ChipGroup
@@ -273,19 +275,25 @@
             android:id="@+id/chip5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bułka" />
+            android:text="Bułka"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/blue"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chleb bialy" />
+            android:text="Chleb bialy"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/blue"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chleb pełnoziarnisty" />
+            android:text="Chleb pełnoziarnisty"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/blue"/>
     </com.google.android.material.chip.ChipGroup>
 
     <com.google.android.material.chip.ChipGroup
@@ -302,19 +310,22 @@
             android:id="@+id/chip8"
             android:text="Szynka"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:chipBackgroundColor="@color/yellow"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip9"
             android:text="Kiełbasa"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:chipBackgroundColor="@color/yellow"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip10"
             android:text="Parówka"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:chipBackgroundColor="@color/yellow"/>
     </com.google.android.material.chip.ChipGroup>
 
 
