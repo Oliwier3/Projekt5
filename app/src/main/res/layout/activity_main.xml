@@ -248,12 +248,14 @@
             android:id="@+id/chip3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="Marchewka" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="cebula" />
     </com.google.android.material.chip.ChipGroup>
 
