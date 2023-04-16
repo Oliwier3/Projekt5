@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         val checkbox7 = findViewById<CheckBox>(R.id.check7)
         val checkbox8 = findViewById<CheckBox>(R.id.check8)
         val checkbox9 = findViewById<CheckBox>(R.id.check9)
+        val chip0 = findViewById<Chip>(R.id.chip0)
         val chip1 = findViewById<Chip>(R.id.chip1)
         val chip2 = findViewById<Chip>(R.id.chip2)
         val chip3 = findViewById<Chip>(R.id.chip3)
@@ -34,10 +35,11 @@ class MainActivity : AppCompatActivity() {
         val chip7 = findViewById<Chip>(R.id.chip7)
         val chip8 = findViewById<Chip>(R.id.chip8)
         val chip9 = findViewById<Chip>(R.id.chip9)
-        val chip10 = findViewById<Chip>(R.id.chip10)
+
 
         radio2.setOnCheckedChangeListener { compoundButton, b ->
             checkbox0.isVisible = true
+            chip0.isVisible = false
             checkbox1.isVisible = true
             checkbox2.isVisible = true
             checkbox3.isVisible = true
