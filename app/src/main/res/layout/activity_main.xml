@@ -232,21 +232,25 @@
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip1"
+            android:text="ogórek"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
+            android:text="Sałata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
+            android:text="Marchewka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip4"
+            android:text="cebula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </com.google.android.material.chip.ChipGroup>
