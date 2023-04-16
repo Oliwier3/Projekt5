@@ -297,17 +297,20 @@
         app:layout_constraintVertical_bias="0.602">
 
         <com.google.android.material.chip.Chip
+            android:id="@+id/chip8"
+            android:text="Szynka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.chip.Chip
             android:id="@+id/chip9"
+            android:text="Kiełbasa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip11"
+            android:text="Parówka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </com.google.android.material.chip.ChipGroup>
